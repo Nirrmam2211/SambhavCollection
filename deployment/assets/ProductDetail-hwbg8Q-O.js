@@ -1,0 +1,1 @@
+import{s as t}from"./stubPage-I37G74hg.js";import"./query-DXcY-sj-.js";import"./vendor-CI0b9hIJ.js";const a=t("Product Detail","Full product detail page with size selector, gallery, reviews.");export{a as default};
