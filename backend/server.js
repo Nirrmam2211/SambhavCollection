@@ -23,7 +23,7 @@ const orderRoutes = require('./routes/orderRoutes');
 const appointmentRoutes = require('./routes/appointmentRoutes');
 const reviewRoutes = require('./routes/reviewRoutes');
 const uploadRoutes = require('./routes/uploadRoutes');
-const paymentRoutes = require('./routes/paymentRoutes');
+// const paymentRoutes = require('./routes/paymentRoutes');
 const adminRoutes = require('./routes/adminRoutes');
 const newsletterRoutes = require('./routes/newsletterRoutes');
 const contactRoutes = require('./routes/contactRoutes');
@@ -79,7 +79,8 @@ app.use('/api/orders',       orderRoutes);
 app.use('/api/appointments', appointmentRoutes);
 app.use('/api/reviews',      reviewRoutes);
 app.use('/api/upload',       uploadRoutes);
-app.use('/api/payments',     paymentRoutes);
+// Payments are temporarily disabled for deployment
+// app.use('/api/payments',     paymentRoutes);
 app.use('/api/admin',        adminRoutes);
 app.use('/api/newsletter',   newsletterRoutes);
 app.use('/api/contact',      contactRoutes);
